@@ -245,3 +245,70 @@ let e5 = a5.concat(" ", b5); // e = "Hello World"
 let a6 = 10;
 let b6 = 20;
 let c6 = a6 > b6 ? "a is greater than b" : "a is less than or equal to b";
+
+
+/*
+
+Control Flow 👇👇👇
+
+What is Control Flow ? ☑️
+
+Ans: Control flow is the order in which a computer executes statements in a program.
+
+What are the main types of control flow in JavaScript ? ☑️
+
+Ans: 
+  1. If-Else Statement
+  2. Switch Statement
+  3. While Loop
+  4. For Loop
+  5. For-In Loop
+  6. For-Of Loop
+
+*/
+
+// If-Else Statement
+if (a > b) {
+  console.log("a is greater than b");
+} else {
+  console.log("a is less than or equal to b");
+}
+
+// Switch Statement
+switch (a) {
+  case 1:
+    console.log("a is 1");
+    break;
+  case 2:
+    console.log("a is 2");
+    break;
+  default:
+    console.log("a is not 1 or 2");
+    break;
+}
+
+// While Loop
+let i = 0;
+while (i < 10) {
+  console.log(i);
+  i++;
+}
+
+// For Loop
+for (let i = 0; i < 10; i++) {
+  console.log(i);
+}
+
+// For-In Loop --> it is used to iterate over the properties of an object
+let obj = { a: 1, b: 2, c: 3 };
+for (let key in obj) {
+  console.log(key);
+}
+
+// For-Of Loop --> it is used to iterate over the elements of an array
+let arr = [1, 2, 3];
+for (let value of arr) {
+  console.log(value);
+}
+
+

@@ -312,3 +312,32 @@ for (let value of arr) {
 }
 
 
+/*
+
+Functions 👇👇👇
+
+What is a Function ? ☑️
+
+Ans: A function is a block of code that performs a specific task.
+
+What are the main types of functions in JavaScript ? ☑️
+
+Ans: 
+  1. Named Function
+  2. Anonymous Function
+  3. Arrow Function
+
+*/
+
+// Named Function
+function add(a, b) {
+  return a + b;
+}
+
+// Anonymous Function
+let subtract = function (a, b) {
+  return a - b;
+};
+
+// Arrow Function
+let multiply = (a, b) => a * b;

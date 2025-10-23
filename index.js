@@ -152,3 +152,96 @@ console.log(typeof null1); // Output: "object"
 console.log(typeof undefined1); // Output: "undefined"
 console.log(typeof bigInt1); // Output: "bigint"
 console.log(typeof symbol1); // Output: "symbol"
+
+
+
+/*
+
+Operators 👇👇👇
+
+What are the operators in JavaScript ? ☑️
+
+Ans: 
+  1. Assignment Operators
+  2. Arithmetic Operators
+  3. Comparison Operators
+  4. Logical Operators
+  5. Bitwise Operators
+  6. String Operators
+  7. Ternary Operator
+
+*/
+
+// Assignment Operators
+let x = 10;
+let y = 20;
+x += y; // x = x + y
+
+
+// Arithmetic Operators
+let a1 = 10;
+let b1 = 20;
+let c1 = a1 + b1; // c = 30
+let d = a1 - b1; // d = -10
+let e = a1 * b1; // e = 200
+let f = a1 / b1; // f = 0.5
+
+
+// Comparison Operators
+let a2 = 10;
+let b2 = 20;
+
+// greater than
+let c2 = a2 > b2; // c = false
+
+// less than
+let d2 = a2 < b2; // d = true
+// greater than or equal to
+
+let e2 = a2 >= b2; // e = false
+// less than or equal to
+
+let f2 = a2 <= b2; // f = true
+
+
+// Logical Operators
+let a3 = true;
+let b3 = false;
+
+// Logical AND (&&)
+let c3 = a3 && b3; // c = false
+
+// Logical OR (||)
+let d3 = a3 || b3; // d = true
+
+// Logical Not (!)
+let e3 = !a3; // e = false
+
+
+// Bitwise Operators
+let a4 = 10;
+let b4 = 20;
+
+// Bitwise AND (&)
+let c4 = a4 & b4; // c = 0
+
+// Bitwise OR (|)
+let d4 = a4 | b4; // d = 30
+
+// Bitwise XOR (^)
+let e4 = a4 ^ b4; // e = 30
+
+// Bitwise NOT (~)
+let f4 = ~a4; // f = -11
+
+// String Operators
+let a5 = "Hello";
+let b5 = "World";
+let c5 = a5 + b5; // c = "HelloWorld"
+let d5 = a5 + " " + b5; // d = "Hello World"
+let e5 = a5.concat(" ", b5); // e = "Hello World"
+
+// Ternary Operator
+let a6 = 10;
+let b6 = 20;
+let c6 = a6 > b6 ? "a is greater than b" : "a is less than or equal to b";

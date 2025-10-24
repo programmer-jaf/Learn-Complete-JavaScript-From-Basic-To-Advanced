@@ -341,3 +341,65 @@ let subtract = function (a, b) {
 
 // Arrow Function
 let multiply = (a, b) => a * b;
+
+/*
+
+Arrays 👇👇👇
+
+What is an Array ? ☑️
+
+Ans: An array is a collection of elements of the same type.
+
+What are the main methods of arrays in JavaScript ? ☑️
+
+Ans: 
+  1. push()
+  2. pop()
+  3. shift()
+  4. unshift()
+  5. splice()
+  6. slice()
+  7. sort()
+  8. reverse()
+*/
+
+// How to create an Array
+let arr1 = [1, 2, 3];
+let arr2 = new Array(1, 2, 3);
+
+// How to access an element of an Array
+let arr3 = [1, 2, 3];
+let element = arr3[0];
+
+// How to add an element to an Array
+let arr4 = [1, 2, 3];
+arr4.push(4);
+
+// How to remove an element from an Array
+let arr5 = [1, 2, 3];
+arr5.pop();
+
+// How to remove the first element from an Array
+let arr6 = [1, 2, 3];
+arr6.shift();
+
+// How to add an element to the beginning of an Array
+let arr7 = [1, 2, 3];
+arr7.unshift(0);
+
+// How to remove elements from an Array
+let arr8 = [1, 2, 3];
+arr8.splice(1, 1);
+
+// How to copy an Array
+let arr9 = [1, 2, 3];
+let arr10 = arr9.slice();
+
+// How to sort an Array
+let arr11 = [4, 2, 1, 3];
+arr11.sort();
+
+// How to reverse an Array
+let arr12 = [1, 2, 3];
+arr12.reverse();
+

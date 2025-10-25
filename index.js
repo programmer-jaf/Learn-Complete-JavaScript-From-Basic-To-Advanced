@@ -473,3 +473,46 @@ let isFrozen = Object.isFrozen(obj12);
 let obj13 = { name: "John", age: 30 };
 let isSealed = Object.isSealed(obj13);
 
+
+// What is Object Oriented Programming (OOP) ?
+/*
+
+Object Oriented Programming (OOP) is a programming paradigm that uses objects and their properties and methods to model real-world entities.
+
+
+Class 👇👇👇
+
+What is a Class ? ☑️
+
+Ans: A class is a user-define blueprint with some attributes and behaviors.
+
+What are the main methods of classes in JavaScript ? ☑️
+
+
+How to create a Class
+
+
+Ans: 
+  1. constructor()
+  2. static()
+  3. get()
+  4. set()
+  5. static get()
+  6. static set()
+*/
+
+//  How to create class
+class Car{
+  constructor(brand, model) {
+    this.brand = brand;
+    this.model = model;
+  }
+
+  start() {
+    console.log(`${this.brand} ${this.model} is starting...`);
+  }
+}
+
+
+const toyota = new Car("Toyota", "Camry");
+toyota.start();

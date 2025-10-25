@@ -403,3 +403,73 @@ arr11.sort();
 let arr12 = [1, 2, 3];
 arr12.reverse();
 
+
+/*
+
+Objects 👇👇👇
+
+What is an Object ? ☑️
+
+Ans: An object is a collection of key-value pairs.
+
+What are the main methods of objects in JavaScript ? ☑️
+
+Ans: 
+  1. Object.create()
+  2. Object.assign()
+  3. Object.keys()
+  4. Object.values()
+  5. Object.entries()
+  6. Object.freeze()
+  7. Object.seal()
+  8. Object.isFrozen()
+  9. Object.isSealed()
+*/
+
+// How to create an Object
+let obj1 = { name: "John", age: 30 };
+
+// How to access a property of an Object
+let obj2 = { name: "John", age: 30 };
+let name = obj2.name;
+
+// How to add a property to an Object
+let obj3 = { name: "John", age: 30 };
+obj3.address = "123 Main St";
+
+// How to remove a property from an Object
+let obj4 = { name: "John", age: 30 };
+delete obj4.age;
+
+// How to copy an Object
+let obj5 = { name: "John", age: 30 };
+let obj6 = Object.assign({}, obj5);
+
+// How to get the keys of an Object
+let obj7 = { name: "John", age: 30 };
+let keys = Object.keys(obj7);
+
+// How to get the values of an Object
+let obj8 = { name: "John", age: 30 };
+let values = Object.values(obj8);
+
+// How to get the entries of an Object
+let obj9 = { name: "John", age: 30 };
+let entries = Object.entries(obj9);
+
+// How to freeze an Object
+let obj10 = { name: "John", age: 30 };
+Object.freeze(obj10);
+
+// How to seal an Object
+let obj11 = { name: "John", age: 30 };
+Object.seal(obj11);
+
+// How to check if an Object is frozen
+let obj12 = { name: "John", age: 30 };
+let isFrozen = Object.isFrozen(obj12);
+
+// How to check if an Object is sealed
+let obj13 = { name: "John", age: 30 };
+let isSealed = Object.isSealed(obj13);
+

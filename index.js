@@ -558,3 +558,27 @@ class Rectangle extends Shape {
     return this.width * this.height;
   }
 }
+
+
+// Encapsulation
+
+/*
+What is Encapsulation ? ☑️
+
+Ans: Encapsulation is a programming concept that encapsulates the data and behavior of an object into a single unit.
+*/
+
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  
+  getAge() {
+    return this.age;
+  }
+  
+  setName(name) {
+    this.name = name;
+  }
+}

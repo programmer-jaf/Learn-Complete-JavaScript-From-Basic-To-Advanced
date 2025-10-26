@@ -516,3 +516,45 @@ class Car{
 
 const toyota = new Car("Toyota", "Camry");
 toyota.start();
+
+/*
+4 Pillar of OOP
+1. Encapsulation
+2. Abstraction
+3. Inheritance
+4. Polymorphism
+*/
+
+// Polymorphism
+/*
+
+Polymorphism is a feature of object-oriented programming that allows objects of different classes to be treated as if they are instances of a common superclass.
+Types of Polymorphism
+
+1. Method Overloading
+2. Method Overriding
+
+*/
+
+// Method Overloading
+class Calculator {
+  add(a, b) {
+    return a + b;
+  }
+  
+  add(a, b, c) {
+    return a + b + c;
+  }
+}
+// Method Overriding
+class Shape {
+  getArea() {
+    return 0;
+  }
+}
+
+class Rectangle extends Shape {
+  getArea() {
+    return this.width * this.height;
+  }
+}
